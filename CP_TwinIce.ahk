@@ -343,8 +343,8 @@ Loop, 1 {
             Send, {Down up}
             Sleep, %DelaySleep%
         }
-      ; 9 Vers le Gauche.
-        Loop, 9 {
+      ; 8 Vers le Gauche.
+        Loop, 8 {
             Send, {Left down}
             Sleep, %DelayPress%
             Send, {Left up}
