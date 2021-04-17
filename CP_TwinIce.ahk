@@ -2,16 +2,16 @@
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 
-DelayPress = 40 ; Delay de Pression.
-DelayLevel = 200 ; Delay Entre 2 Levels.
-DelaySleep = 250 ; Delay Entre 2 Touches.
+DelayPress = 100 ; Delay de Pression.
+DelayLevel = 300 ; Delay Entre 2 Levels.
+DelaySleep = 300 ; Delay Entre 2 Touches.
 
 Loop, 1 {
   ; Setup.
     Click, 934, 856
-    Sleep, 100
+    Sleep, %DelayLevel%
     Click, 642, 863
-  ; Level 1.
+    ; Level 1.
         Sleep, %DelayLevel%
       ; 12 Vers la Gauche.
         Loop, 12 {
