@@ -334,5 +334,81 @@ Loop, 1 {
             Send, {Down up}
             Sleep, %DelaySleep%
         }
+  ; Level 5.
+        Sleep, %DelayLevel%
+      ; 2 Vers le Bas.
+        Loop, 2 {
+            Send, {Down down}
+            Sleep, %DelayPress%
+            Send, {Down up}
+            Sleep, %DelaySleep%
+        }
+      ; 9 Vers le Gauche.
+        Loop, 9 {
+            Send, {Left down}
+            Sleep, %DelayPress%
+            Send, {Left up}
+            Sleep, %DelaySleep%
+        }
+      ; 1 Vers le Bas.
+        Loop, 1 {
+            Send, {Down down}
+            Sleep, %DelayPress%
+            Send, {Down up}
+            Sleep, %DelaySleep%
+        }
+      ; 10 Vers la Droite.
+        Loop, 10 {
+            Send, {Right down}
+            Sleep, %DelayPress%
+            Send, {Right up}
+            Sleep, %DelaySleep%
+        }
+      ; 1 Vers le Haut.
+        Loop, 1 {
+            Send, {Up down}
+            Sleep, %DelayPress%
+            Send, {Up up}
+            Sleep, %DelaySleep%
+        }
+      ; 1 Vers la Droite.
+        Loop, 1 {
+            Send, {Right down}
+            Sleep, %DelayPress%
+            Send, {Right up}
+            Sleep, %DelaySleep%
+        }
+      ; 2 Vers le Bas.
+        Loop, 2 {
+            Send, {Down down}
+            Sleep, %DelayPress%
+            Send, {Down up}
+            Sleep, %DelaySleep%
+        }
+      ; 12 Vers le Gauche.
+        Loop, 12 {
+            Send, {Left down}
+            Sleep, %DelayPress%
+            Send, {Left up}
+            Sleep, %DelaySleep%
+        }
+      ; 1 Vers le Haut.
+        Loop, 1 {
+            Send, {Up down}
+            Sleep, %DelayPress%
+            Send, {Up up}
+            Sleep, %DelaySleep%
+        }
+      ; 2 Vers le Gauche.
+        Loop, 2 {
+            Send, {Left down}
+            Sleep, %DelayPress%
+            Send, {Left up}
+            Sleep, %DelaySleep%
+        }
+  ; Level 6.
+        Sleep, %DelayLevel%
+  ; Level 7.
+        Sleep, %DelayLevel%
 }
 Return
