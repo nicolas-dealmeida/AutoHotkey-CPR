@@ -29,11 +29,11 @@ Loop, 1 {
             Send, {Right up}
             Sleep, %DelaySleep%
         }
-      ; 2 Vers le Haut.
+      ; 2 Vers le Bas.
         Loop, 2 {
-            Send, {Up down}
+            Send, {Down down}
             Sleep, %DelayPress%
-            Send, {Up up}
+            Send, {Down up}
             Sleep, %DelaySleep%
         }
       ; 4 Vers la Droite.
