@@ -87,64 +87,64 @@ Loop, 1 {
             Send, {Up up}
             Sleep, %DelaySleep%
         }
-      ; 2 Vers la Gauche.
-        Loop, 2 {
-            Send, {Left down}
-            Sleep, %DelayPress%
-            Send, {Left up}
-            Sleep, %DelaySleep%
-        }
-      ; 1 Vers le Haut.
-        Loop, 1 {
-            Send, {Up down}
-            Sleep, %DelayPress%
-            Send, {Up up}
-            Sleep, %DelaySleep%
-        }
-      ; 1 Vers la Gauche.
-        Loop, 1 {
-            Send, {Left down}
-            Sleep, %DelayPress%
-            Send, {Left up}
-            Sleep, %DelaySleep%
-        }
-      ; 1 Vers le Bas.
-        Loop, 1 {
-            Send, {Down down}
-            Sleep, %DelayPress%
-            Send, {Down up}
-            Sleep, %DelaySleep%
-        }
-      ; 2 Vers la Gauche.
-        Loop, 2 {
-            Send, {Left down}
-            Sleep, %DelayPress%
-            Send, {Left up}
-            Sleep, %DelaySleep%
-        }
-      ; 1 Vers le Bas.
-        Loop, 1 {
-            Send, {Down down}
-            Sleep, %DelayPress%
-            Send, {Down up}
-            Sleep, %DelaySleep%
-        }
-      ; 1 Vers la Gauche.
-        Loop, 1 {
-            Send, {Left down}
-            Sleep, %DelayPress%
-            Send, {Left up}
-            Sleep, %DelaySleep%
-        }
-      ; 1 Vers le Haut.
-        Loop, 1 {
-            Send, {Up down}
-            Sleep, %DelayPress%
-            Send, {Up up}
-            Sleep, %DelaySleep%
-        }
       ; 3 Vers la Gauche.
         Loop, 3 {
+            Send, {Left down}
+            Sleep, %DelayPress%
+            Send, {Left up}
+            Sleep, %DelaySleep%
+        }
+      ; 1 Vers le Bas.
+        Loop, 1 {
+            Send, {Down down}
+            Sleep, %DelayPress%
+            Send, {Down up}
+            Sleep, %DelaySleep%
+        }
+      ; 1 Vers la Gauche.
+        Loop, 1 {
+            Send, {Left down}
+            Sleep, %DelayPress%
+            Send, {Left up}
+            Sleep, %DelaySleep%
+        }
+      ; 1 Vers le Haut.
+        Loop, 1 {
+            Send, {Up down}
+            Sleep, %DelayPress%
+            Send, {Up up}
+            Sleep, %DelaySleep%
+        }
+      ; 2 Vers la Gauche.
+        Loop, 2 {
+            Send, {Left down}
+            Sleep, %DelayPress%
+            Send, {Left up}
+            Sleep, %DelaySleep%
+        }
+      ; 1 Vers le Haut.
+        Loop, 1 {
+            Send, {Up down}
+            Sleep, %DelayPress%
+            Send, {Up up}
+            Sleep, %DelaySleep%
+        }
+      ; 1 Vers la Gauche.
+        Loop, 1 {
+            Send, {Left down}
+            Sleep, %DelayPress%
+            Send, {Left up}
+            Sleep, %DelaySleep%
+        }
+      ; 1 Vers le Bas.
+        Loop, 1 {
+            Send, {Down down}
+            Sleep, %DelayPress%
+            Send, {Down up}
+            Sleep, %DelaySleep%
+        }
+      ; 2 Vers la Gauche.
+        Loop, 2 {
             Send, {Left down}
             Sleep, %DelayPress%
             Send, {Left up}
